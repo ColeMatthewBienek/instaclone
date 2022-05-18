@@ -6,7 +6,7 @@
 import { useNavigate } from 'react-router-dom';
 
 // eslint-disable-next-line no-unused-vars
-function Home(props) {
+function Dashboard(props) {
     const navigate = useNavigate();
 
     return (
@@ -22,4 +22,4 @@ function Home(props) {
     );
 }
 
-export default Home;
+export default Dashboard;
